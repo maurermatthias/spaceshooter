@@ -41,6 +41,7 @@ GameObject:
   - component: {fileID: 114203110965389516}
   - component: {fileID: 114922953641903912}
   - component: {fileID: 114299263542938468}
+  - component: {fileID: 114820409297554694}
   m_Layer: 0
   m_Name: Poulpi
   m_TagString: Untagged
@@ -54,8 +55,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1299605703745806}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.93, y: -0.36066216, z: 0.059570312}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.9, y: -3.96, z: 0.059570312}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children:
   - {fileID: 4233120388915494}
@@ -131,7 +132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f64fa05129b4244a847779f35889fd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 2, y: 2}
+  speed: {x: 3, y: 3}
   direction: {x: -1, y: 0}
 --- !u!114 &114299263542938468
 MonoBehaviour:
@@ -144,6 +145,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb6dd650039ac248874e304e0bfe5af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114820409297554694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1299605703745806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a480fbfdd8265b24484c1275c69e1916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: {x: 1, y: 1}
+  direction: {x: 1, y: 0}
+  isLinkedToCamera: 0
+  isLooping: 0
 --- !u!114 &114922953641903912
 MonoBehaviour:
   m_ObjectHideFlags: 1
